@@ -39,15 +39,53 @@ Numpad0 & Numpad2::
 ;  }
 
 #n::Run "cursor"
-#n::MsgBox ThisHotkey ; Reports #n
+; #n::MsgBox ThisHotkey ; Reports #n
 
 ^!s::Send "Sincerely,{enter}Ali Jamil "
 
 <^>!m::MsgBox "You pressed AltGr+m."
 <^<!m::MsgBox "You pressed LeftControl+LeftAlt+m."
 LControl & RAlt::MsgBox "You pressed AltGr itself."
-a::b
-b::a
-a::B
-A::b
-^a::b
+
+#HotIf WinActive("FirstAHK.ahk - AutoHotkeys - Visual Studio Code")
+#Space::
+{
+    MsgBox "You don't pressed Windows logo and Space no no "
+}
+
+; Untitled - Notepad
+#HotIf WinActive("Untitled - Notepad")
+!q::
+{
+    MsgBox "You pressed ALT+Q in Notepad."
+}
+
+; Any window that isn't Untitled - Notepad
+#HotIf
+!q::
+{
+    MsgBox "You pressed ALT+Q in any window."
+}
+#i::
+{
+    Run "https://www.google.com/"
+}
+
+^p::
+{
+    Run "notepad.exe"
+}
+
+~j::
+{
+    Send "ack"
+}
+
+:*:acheiv::achiev
+::achievment::achievement
+::acquaintence::acquaintance
+:*:adquir::acquir
+::aquisition::acquisition
+:*:agravat::aggravat
+:*:allign::align
+::ameria::America
