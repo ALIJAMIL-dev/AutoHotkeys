@@ -2,5 +2,25 @@
     "cSpell.words": [
         "hahahhahahahhaha",
         "Numpad"
-    ]
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#d23757",
+        "activityBar.background": "#d23757",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#1e4e12",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#d23757",
+        "statusBar.background": "#af2743",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#d23757",
+        "statusBarItem.remoteBackground": "#af2743",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#af2743",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#af274399",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#af2743"
 }
